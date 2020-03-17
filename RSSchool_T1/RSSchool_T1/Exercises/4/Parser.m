@@ -9,7 +9,7 @@
     NSString * firstSet = [self findSubstring:string character:@"<>"];
     NSString * secondSet = [self findSubstring:string character:@"[]"];
     NSString * thirdSet = [self findSubstring:string character:@"()"];
-
+    
     [result addObject:firstSet];
     [result addObject:secondSet];
     [result addObject:thirdSet];
